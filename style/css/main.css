@@ -4286,6 +4286,18 @@ padding: 1.3em 0 0.5em 0;
     margin-bottom: 16px;
 }
 
+/* v2.1 
+ * FIX FOR WODGE-BUTTON
+ * Note: wodge-button inherits from the [*='button'] class. On hover, the background of this container div turns blue.
+ * This overrides these styels.
+ */
+
+.wodge-button:hover,
+.wodge-button:active,
+.wodge-button:focus {
+    background-color: transparent !important; /* requires important! because button class has high specificity */
+}
+
 /* @end Wodge */
 
 /* @group Global Header */
