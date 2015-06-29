@@ -1,7 +1,7 @@
 pattern-library
 ======
 
-* **Current stable version:** 2 ([release-2](https://github.com/codeforamerica/pattern-library/releases/tag/release-1) tag / linkable [url](https://style.codeforamerica.org/2/))
+* **Current stable version:** 2 ([release-2](https://github.com/codeforamerica/pattern-library/releases/tag/release-2.1) tag / linkable [url](https://style.codeforamerica.org/2/))
 * **Current development version:** 3 ([master](https://github.com/codeforamerica/pattern-library/tree/master) branch / linkable [url](https://style.codeforamerica.org/3/))
 
 The pattern library serves as the base CSS and organizing styles for [codeforamerica.org](http://codeforamerica.org). The pattern library is also a living style guide that explains how to use our CSS to build websites.
@@ -44,7 +44,11 @@ Note that you should include your chosen version number (i.e. **/2/**) in the ur
 
 ## Versioning
 
-Coming soon.
+Note: we are still updating our versioning process. Your feedback is welcome in the [issues](https://github.com/codeforamerica/pattern-library/issues).
+
+Releases are currently seperated between major (full number releases, i.e. 0, 1, 2) and minor (dot releases, i.e. 2.1). Minor changes are essentially bug fixes and are intended to be fully backwards compatible. Minor changes don't trigger a new URL to a new stylesheet (i.e. release 2.1 is still available from http://style.codeforamerica.org/2/style/css/). If you link directly to our stylesheets, you will automatically get minor releases.
+
+Major releases will attempt to preserve backwards compatability, but may introduce some quirks or require markup changes after upgrade. Please [watch the repo](https://github.com/codeforamerica/pattern-library/subscription) to get updates on when major releases are available. The current stable major release is 2. The current development major release is 3.
 
 ## How to deploy it
 
