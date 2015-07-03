@@ -64,7 +64,7 @@ We welcome bugs, questions and suggestions in the form of issues, or features an
 2. Create a topic branch (name it something verb-y, like `fix-layout-padding`).
 3. Make your changes, and commit with descriptive commit messages.
 4. Push your changes.
-5. Sumit a pull request.
+5. Submit a pull request.
 
 ### <a name="issues"></a>Submitting an Issue
 
