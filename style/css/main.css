@@ -1914,9 +1914,17 @@ input.button-s {
 
 .masthead {
     clear: both;
+    margin-top: 60px;
     overflow: hidden;
     position: relative;
     text-align: center;
+}
+
+@media (min-width: 40em) {
+  /* collapse margin on masthead on tablet-size up */
+  .masthead {
+    margin-top: 0;
+  }
 }
 
 .masthead:before {
