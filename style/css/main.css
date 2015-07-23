@@ -785,14 +785,14 @@ margin-right: 0.35em;
 }
 
     @media (min-width: 40em) {
-        
+
         .badge-heading {
             background-position: left top;
             background-repeat: no-repeat;
             min-height: 65px;
             padding-left: 65px;
         }
-        
+
         .badge-heading:before,
         .badge-heading:after {
             background-repeat: no-repeat;
@@ -803,134 +803,134 @@ margin-right: 0.35em;
             top: 29px;
             width: 50px;
         }
-        
+
         .badge-heading:before {
             background-color: black;
             background-size: 50px;
             border-radius: 100px;
         }
-        
+
         /* Badge colors */
         .badge-white:before {
             background-color: white;
         }
-        
+
         .badge-blue:before {
             background-color: #399fd3; /* $color-blue */
         }
-        
+
         .badge-gray:before {
             background-color: #6d6e71; /* $color-gray */
         }
-        
+
         .badge-orange:before {
             background-color: #e87d2b;  /* $color-orange */
         }
-        
+
         .badge-purple:before {
             background-color: #69579c;  /* $color-purple */
         }
-        
+
         .badge-red:before {
             background-color: #cf1b41;  /* $color-red */
         }
-        
+
         .badge-teal:before {
             background-color: #00a175;  /* $color-teal */
         }
-        
+
         .badge-dark-blue:before {
             background-color: #004b6a;  /* $color-dark-blue */
         }
-        
+
         /* Badge images */
-        
+
         [class*="badge-"]:after {
             z-index: 1;
         }
-        
+
         .badge-heading:after {
             background-image: url("../images/badge-rocket.png");
             background-position: 9px 12px;
         }
-        
+
         .svg .badge-heading:after {
             background-image: url("../images/badge-rocket.svg");
         }
-        
+
         .badge-brigade:after {
             background-image: url("../images/badge-brigade.png");
             background-position: 8px 5px;
         }
-        
+
         .svg .badge-brigade:after {
             background-image: url("../images/badge-brigade.svg");
         }
-        
+
         .badge-peernetwork:after {
             background-image: url("../images/badge-peernetwork.png");
             background-position: 13px 6px;
         }
-        
+
         .svg .badge-peernetwork:after {
             background-image: url("../images/badge-peernetwork.svg");
         }
-        
+
         .badge-startups:after {
             background-image: url("../images/badge-startups.png");
             background-position: 14px 3px;
         }
-        
+
         .svg .badge-startups:after {
             background-image: url("../images/badge-startups.svg");
         }
-        
+
         .badge-fellowship:after {
             background-image: url("../images/badge-fellowship.png");
             background-position: 15px 5px;
         }
-        
+
         .svg .badge-fellowship:after {
             background-image: url("../images/badge-fellowship.svg");
         }
-        
+
         .badge-github:after {
             background-image: url("../images/badge-github.png");
             background-position: 12px 11px;
         }
-        
+
         .svg .badge-github:after {
             background-image: url("../images/badge-github.svg");
         }
-        
+
         .badge-glasses:after {
             background-image: url("../images/badge-glasses.png");
             background-position: 7px 18px;
         }
-        
+
         .svg .badge-glasses:after {
             background-image: url("../images/badge-glasses.svg");
         }
-        
+
         .badge-gov:after {
             background-image: url("../images/badge-gov.png");
             background-position: 12px 6px;
         }
-        
+
         .svg .badge-gov:after {
             background-image: url("../images/badge-gov.svg");
         }
-        
+
         .badge-graph:after {
             background-image: url("../images/badge-graph.png");
             background-position: 11px 10px;
             z-index: 1;
         }
-        
+
         .svg .badge-graph:after {
             background-image: url("../images/badge-graph.svg");
         }
-    
+
     }
 
 /* @end Badge */
@@ -1498,7 +1498,7 @@ input.button-s {
     text-transform: uppercase;
 }
 
-    
+
 .brick.badge-heading,
 .brick .badge-heading {
     background-position: center top;
@@ -1535,30 +1535,30 @@ input.button-s {
 }
 
 @media (max-width: 40em) {
-    
+
     .bricks-cta .brick.badge-heading {
         background-image: none;
     }
-    
+
     .bricks-cta .badge-blue {
         background-color: #399fd3; /* $color-blue */
     }
-    
+
     .bricks-cta .badge-dark-blue {
         background-color: #004b6a; /* $color-dark-blue */
     }
-    
+
     .bricks-cta .badge-red {
         background-color: #cf1b41;  /* $color-red */
         background-image: url("../images/badge-rocket-red.png");
     }
-    
+
     .bricks-cta .badge-blue .brick-heading,
     .bricks-cta .badge-dark-blue .brick-heading,
     .bricks-cta .badge-red .brick-heading {
         color: white;
     }
-    
+
     .bricks-cta .badge-blue .brick-text,
     .bricks-cta .badge-blue .brick-heading,
     .bricks-cta .badge-red .brick-text,
@@ -1601,7 +1601,7 @@ input.button-s {
     background-image: none;
 }
 
-.brick.badge-github { 
+.brick.badge-github {
     background-image: url("../images/badge-github-black.png");
 }
     .svg .brick.badge-github {
@@ -1611,8 +1611,8 @@ input.button-s {
 .slab-dark-blue .bricks-4 .badge-heading {
     background-image: url("../images/badge-rocket-white.png");
 }
-    .svg .slab-dark-blue .bricks-4 .badge-heading { 
-        background-image: url("../images/badge-rocket-white.svg"); 
+    .svg .slab-dark-blue .bricks-4 .badge-heading {
+        background-image: url("../images/badge-rocket-white.svg");
     }
 
 .slab-dark-blue .bricks-4 .badge-github {
@@ -1820,7 +1820,7 @@ input.button-s {
     min-height: 130px;
     position: relative;
 }
-    
+
     @media (max-width: 60em) and (min-width: 40em) {
         .chimney .profile {
             clear: both;
@@ -1859,7 +1859,7 @@ input.button-s {
             width: 90px;
         }
     }
-    
+
     @media (min-width: 60em) {
     .chimney .profile .profile-photo {
             height: 120px;
@@ -2298,13 +2298,13 @@ input.button-s {
     .list-buttons {
         display: flex;
     }
-    
+
     .list-buttons li {
         flex: 1;
         margin: 0 6px;
         text-align: center;
     }
-    
+
     .list-buttons button,
     .list-buttons [class*="button"],
     .list-buttons input[type="button"],
@@ -2313,11 +2313,11 @@ input.button-s {
         padding-right: 0;
         width: 100%;
     }
-    
+
     .list-buttons li:first-child {
         margin-left: 0;
     }
-    
+
     .list-buttons li:last-child {
         margin-right: 0;
     }
@@ -2882,7 +2882,7 @@ nav ul li {
         margin-right: 2%;
         width: 49%;
     }
-    
+
     .nav-footer .nav-tier1:nth-child(2n+1) {
         margin-right: 0;
     }
@@ -2893,7 +2893,7 @@ nav ul li {
         margin-right: 2%;
         width: 30%;
     }
-    
+
     .nav-footer .nav-tier1:nth-child(3n+3) {
         margin-right: 0;
     }
@@ -2903,7 +2903,7 @@ nav ul li {
         align-content: flex-start;
         display: flex;
         flex-wrap: nowrap;
-    } 
+    }
     .nav-footer .nav-tier1,
     .nav-footer .nav-tier1:nth-child(2n+1),
     .nav-footer .nav-tier1:nth-child(3n+3) {
@@ -3026,14 +3026,14 @@ nav ul li {
     color: black;
     display: block;
     margin: 0 21px;
-    padding: 24px 14px;
+    padding: 24px 2px;
     -webkit-transition: padding 0.25s ease;
     transition: padding 0.25s ease;
 }
-    
+
     @media (min-width: 40em) {
         .global-header .nav-global-secondary li a {
-            padding: 30px 14px;
+            padding: 30px 0;
         }
 
         .global-header .nav-global-secondary li a.button {
@@ -3044,7 +3044,7 @@ nav ul li {
             padding: 10px 14px;
         }
     }
-    
+
     @media (max-width: 40em) {
         .nav-global-secondary li a {
             margin: 0;
@@ -3471,19 +3471,19 @@ padding: 0 0.15em 0 0;
         margin: 0;
         width: 32.0%;
     }
-    
+
     /* v2 */
     .profile-small > li {
         margin-top: 48px;
     }
-    
+
     /* Profiles next to each other */
     /* v2 */
     .profiles > li + li {
         margin-left: 1%;
         margin-left: calc(2% - 4px);
     }
-    
+
     /* The last profile on each row (in a 3 column grid) */
     /* v2 */
     .profiles > li:nth-of-type(3n+4) {
@@ -3819,7 +3819,7 @@ padding-right: 1em;
     .stats {
         display: flex;
     }
-    
+
     .stat {
         display: flex-box;
         flex-grow: 1;
@@ -4099,7 +4099,7 @@ li.teaser a:active,
 .no-logo .teaser-header {
     margin-top: 0;
 }
-   
+
 .teaser-pdf .teaser-masthead,
 .teasers li > a[href$=".pdf"] > div {
     background-color: white;
@@ -4203,7 +4203,7 @@ padding: 1.3em 0 0.5em 0;
     position: relative;
     clear: both;
 }
-    
+
     @media (min-width: 60em) {
         .wodge {
             margin: 48px 0 32px 0;
@@ -4246,7 +4246,7 @@ padding: 1.3em 0 0.5em 0;
 .wodge-s .wodge-button input[type="submit"] {
     min-width: 7em;
 }
-    
+
     @media (min-width: 40em) {
         .wodge-s > * {
             float: left;
@@ -4257,22 +4257,22 @@ padding: 1.3em 0 0.5em 0;
             float: left;
             margin-left: 150px;
             margin-top: 0;
-        }   
+        }
     }
-    
+
     @media (min-width: 60em) {
         .wodge-s .wodge-button {
             float: right;
             margin-left: 0;
         }
-        
+
         .wodge-l .wodge-button {
             margin-left: 0;
             position: absolute;
             right: 0;
             top: 0;
         }
-        
+
         .wodge-header {
             max-width: 48%;
         }
@@ -4286,7 +4286,7 @@ padding: 1.3em 0 0.5em 0;
     margin-bottom: 16px;
 }
 
-/* v2.1 
+/* v2.1
  * FIX FOR WODGE-BUTTON
  * Note: wodge-button inherits from the [*='button'] class. On hover, the background of this container div turns blue.
  * This overrides these styels.
@@ -4504,7 +4504,7 @@ padding: 1.3em 0 0.5em 0;
             margin-left: 0;
         }
     }
-    
+
     @media print {
         .global-foot-logo {
             display: none;
