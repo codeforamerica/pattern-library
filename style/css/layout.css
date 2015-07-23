@@ -27,7 +27,7 @@ blockquote {
 /* IE 7 doesn't understand a range of pseudo-classes. By default, there is no margin unless that column is next to another column. Margins are applied to the left. This means the first column doesn't get a margin, so a 3-col layout doesn't break in old versions of IE. */
 
 /*  9 column = quaver  */
-    
+
     .layout-quaver {
         width: 9.33333333333%;
         float: left;
@@ -36,21 +36,21 @@ blockquote {
         background-image: none;
         padding: 0;
         }
-    
+
     [class*="block-"][class*="layout-quaver"] {
         width: calc(9.33333333333% - 36px);
         }
-    
+
     .layout-quaver:nth-of-type(9n+9) {
         margin-right: 0;
         }
-    
+
     .layout-quaver:nth-of-type(9n+10) {
         clear: both;
         }
 
 /*  3 column = crotchet  */
-    
+
     .layout-crotchet,
     .layout-grid-crotchet > li,
     .layout-grid-crotchet > div {
@@ -59,40 +59,40 @@ blockquote {
         clear: none;
         padding: 0;
         }
-    
+
     .layout-grid-crotchet .layout-crotchet {
         width: 100%;
     }
-    
+
     .layout-crotchet + .layout-crotchet,
     .layout-grid-crotchet > li + li,
     .layout-grid-crotchet > div + div {
         margin-left: 2%;
         }
-    
+
     .layout-crotchet:nth-of-type(3n+4),
     .layout-grid-crotchet > li:nth-of-type(3n+4),
     .layout-grid-crotchet > div:nth-of-type(3n+4) {
     	margin-left: 0;
         clear: both;
         }
-    
+
     [class*="block-"][class*="layout-crotchet"] {
         width: calc(32% - 36px);
         }
-    
+
     .teasers.layout-grid-crotchet > li,
     .teasers.layout-grid-crotchet > div {
         width: calc(30.3% - 6px);
     }
-    
+
     .profiles.layout-grid-crotchet > li,
     .profiles.layout-grid-crotchet > div {
         width: calc(32.3% - 6px);
     }
 
 /*  3 column = crotchet  */
-    
+
     .layout-crotchet-staccato {
         width: 27%;
         float: left;
@@ -101,15 +101,15 @@ blockquote {
         background-image: none;
         padding: 0;
         }
-    
+
     [class*="block-"][class*="layout-crotchet-staccato"] {
         width: calc(27% - 36px);
         }
-    
+
     .layout-crotchet-staccato + .layout-crotchet-staccato {
     	margin-left: 9.5%
     	}
-    
+
     .layout-crotchet-staccato:nth-of-type(3n+4) {
         margin-left: 0;
         clear: both;
@@ -117,7 +117,7 @@ blockquote {
 
 
 /*  2 column = minim  */
-    
+
     .layout-minim,
     .layout-grid-minim > li,
     .layout-grid-minim > div {
@@ -128,21 +128,21 @@ blockquote {
         background-image: none;
         padding: 0;
         }
-    
+
     [class*="block-"][class*="layout-minim-staccato"] {
         width: calc(49% - 36px);
         }
-    
+
     .layout-minim + .layout-minim,
     .layout-grid-minim li + li,
     .layout-grid-minim div + div {
         float: right;
         }
-    
+
     .layout-minim + .layout-minim + * {
         clear: both;
         }
-    
+
     .layout-minim:after,
     .layout-grid-minim li:after,
     .layout-grid-minim div:after {
@@ -150,14 +150,14 @@ blockquote {
         display: table;
         clear: both;
     	}
-    
+
     .layout-minim + .layout-minim + .layout-minim,
     .layout-grid-minim li:nth-child(2n+3),
     .layout-grid-minim div:nth-child(2n+3) {
         clear: both;
         float: left;
         }
-        
+
     .teasers.layout-grid-minim > li,
     .teasers.layout-grid-minim > div,
     .profiles.layout-grid-minim > li,
@@ -165,13 +165,13 @@ blockquote {
         width: 45%;
         width: calc(47% - 4px);
         }
-    
+
     /*.layout-minim:nth-child(3n+2) {
         clear: both;
         }*/
-        
+
 /*  2 column = minim  */
-    
+
     .layout-minim-staccato {
         float: left;
         width: 42%;
@@ -180,22 +180,22 @@ blockquote {
         background-image: none;
         padding: 0;
         }
-    
+
     [class*="block-"][class*="layout-minim-staccato"] {
         width: calc(42% - 36px);
         }
-    
+
     .layout-minim-staccato + .layout-minim-staccato {
         float: right;
         }
-    
+
     .layout-minim-staccato:nth-of-type(2n+3) {
         clear: both;
         }
 
 
 /*  1 column = semibreve  */
-    
+
     .layout-semibreve,
     .layout-breve {
         width: 96%;
@@ -204,12 +204,12 @@ blockquote {
         margin: 0 auto;
         float: none;
         }
-    
+
     [class*="block-"][class*="layout-semibreve"],
     [class*="block-"][class*="layout-breve"] {
         width: calc(96% - 36px);
         }
-    
+
     .layout-semibreve {
         max-width: 960px;
         max-width: 60rem;
@@ -221,26 +221,26 @@ blockquote {
 		width: 26%;
 		float: left;
 		}
-	
+
 	[class*="block-"][class*="layout-minor"] {
 	    width: calc(26% - 36px);
 	    }
-		
+
 	.layout-minor-invert {
 		float: right;
 		clear: none;
 		}
-	
+
 	[class*="layout-major"] {
 		float: right;
 		width: 70%;
 		clear: none;
 		}
-	
+
 	[class*="block-"][class*="layout-major"] {
 	    width: calc(70% - 36px);
 	    }
-	
+
 	.layout-major-invert {
 	    float: left;
 	    clear: both;
@@ -258,22 +258,22 @@ blockquote {
     .layout-gutter {
         padding-left: 12%;
         }
-    
+
     .layout-gutters {
         padding-left: 12%;
         padding-right: 12%;
         }
-    
+
     .layout-break-left {
         max-width: 127%;
         float: right;
         margin-bottom: 1em;
         }
-    
+
     .layout-break-left + * {
         clear: both;
         }
-        
+
     }
 
 .layout-break-up {
@@ -325,7 +325,7 @@ blockquote {
 .layout-chimney-invert .layout-minim {
 	width: 42%;
 	}
-	
+
 .layout-chimney .layout-minim-staccato,
 .layout-chimney-invert .layout-minim-staccato {
 	width: 38%;
@@ -335,11 +335,11 @@ blockquote {
     width: 254px;
     margin-left: 0;
     }
-    
+
 .global-footer .search-global input {
 	width: 254px;
 	}
-    
+
 .nav-footer {
     float: left;
     width: 100%;
@@ -349,7 +349,7 @@ blockquote {
 .nav-footer > ul {
     justify-content: space-between;
     }
-    
+
 .nav-footer .nav-tier1 {
     margin-right: 2%;
     float: left;
@@ -395,7 +395,7 @@ section,
         .global-header-logo {
             width: 6em;
         }
-        
+
     }
 
 .nav-global-secondary {
@@ -422,7 +422,6 @@ section,
     background-color: #000;
     color: white;
     text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 3px;
-    margin-top: 35px;
     }
 
 .masthead:before {
@@ -442,10 +441,10 @@ section,
 .masthead h1,
 .masthead .h1 {
     margin: -0.22em 0 0 0;
-    
+
     }
 
-.masthead-image {	
+.masthead-image {
 	display: block;
 	}
 
@@ -507,7 +506,7 @@ section,
       padding-top: 2em;
       font-size: 16px;
       }
-    
+
     .masthead-header .nav-breadcrumbs {
         margin-bottom: 1em;
     }
@@ -655,7 +654,7 @@ section,
 .button-crotchet:hover,
 .button-crotchet:focus,
 .button-crotchet:active {
-    width: 32.0%; 
+    width: 32.0%;
     padding: 0;
     }
 
@@ -687,7 +686,7 @@ section,
     padding-left: 2%;
     padding-right: 2%;
     }
-    
+
 .bricks-4 .brick.badge-heading {
     padding-top: 40px;
     }
