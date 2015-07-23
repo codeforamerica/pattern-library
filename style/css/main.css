@@ -3093,6 +3093,8 @@ nav ul li {
 .nav-global-secondary .nav-tier1 > a.state-active:active {
     background-color: #cf1b41;
     color: white;
+    padding-left: 14px;
+    padding-right: 14px;
 }
 
 .nav-global-secondary .nav-tier2 {
